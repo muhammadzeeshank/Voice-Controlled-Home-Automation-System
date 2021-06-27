@@ -1,9 +1,9 @@
 <?php
 //insert.php
-$serverName = "localhost";
-$userName = "id15881303_autohomeuser";
-$password = "rrGvr/=V\}uH>!f5";
-$dbname = "id15881303_autohome";
+$serverName = "";
+$userName = "";
+$password = "";
+$dbname = "";
 
 $connection = mysqli_connect($serverName, $userName, $password, $dbname);
 if (!$connection) {
