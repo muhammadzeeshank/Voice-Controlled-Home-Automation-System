@@ -13,7 +13,7 @@
 ![flow diagram](images/flowdiagram.png)
 
 <h2>Schematic Diagram</h2>
-![](images/schematic_diagram.png)
+![schematic diagram](images/schematic_diagram.png)
 
 <h2>Problems, Bugs and Troubleshooting</h2>
 <p>We faced two main problems while making our project:</p>
