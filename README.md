@@ -10,7 +10,7 @@
 - Serial Bluetooth Terminal app for Bluetooth control
 
 <h2>Flow Diagram</h2>
-![flow diagram][/images/flowdiagram.png]
+![flow diagram][master/images/flowdiagram.png]
 [flow diagram]: images/flowdiagram.png
 
 <h2>Schematic Diagram</h2>
