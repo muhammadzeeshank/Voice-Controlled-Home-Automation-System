@@ -16,7 +16,6 @@
 ![schematic diagram](images/schematic_diagram.png)
 
 <h2>Problems, Bugs and Troubleshooting</h2>
-<p>We faced two main problems while making our project:</p>
 1. Watchdog timer reset
 <p>The biggest problem I faced was that, after some time the microcontroller automatically restarts and  following message was printed on the serial monitor.</p>
 ![Schematic diagram](images/error.png)
