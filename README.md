@@ -10,13 +10,13 @@
 - Serial Bluetooth Terminal app for Bluetooth control
 
 <h2>Flow Diagram</h2>
-![flow diagram][images/flowdiagram.png]
+<img src="images/flowdiagram.png" width="800" />
 
 <h2>Schematic Diagram</h2>
-![schematic diagram](images/schematic_diagram.png)
+<img src="images/schematic_diagram.png" width="800" />
 
 <h2>Problems, Bugs and Troubleshooting</h2>
 1. Watchdog timer reset
 <p>The biggest problem I faced was that, after some time the microcontroller automatically restarts and  following message was printed on the serial monitor.</p>
-![Schematic diagram](images/error.png)
+<img src="images/error.png" width="800" />
 <p>This was a serious issue in my project because it causes all of the 4 appliances to restart that are to be connected in place of bulbs. To solve this issue we searched lot on google (approx 2 weeks) but found no working solution. We also changed the microcontroller from ESP8266 to ESP32 but still getting the same problem. There was also no problem in our code logic. Then we found some thing called “ESP Exception decoder” on the internet, through this we were finally able to figure out where the problem was. The problem was in one of the libraries that we were using in our code. The name of the library was “StringSplitter.h”. After removing this library the project was working fine.</p>
