@@ -3,6 +3,9 @@
 <h2>Description</h2>
 <p>In this project, I have used the ESP-32 micro-controller along with this 4 channel low level trigger to control the appliances with the help of the signal incoming from micro-controller.In this we have designed to control 4 bulbs and controlling facility consist of buttons,WIFI and Bluetooth.In WIFI module we have added the functionality of controlling the appliances by voice and web page.Our purpose of this project is to provide the ease for human being especially for disabled people.The interesting thing of this project is whenever you go out of your home and forget to switch off the lights,fans whatever you can easily switch off it and also when you are coming to your home before your arrival you can on the lights AC etc.</p>
 
+<h2>Working shown in video</h2>
+https://youtu.be/g172va8gjZ0
+
 <h2>Softwares/Languages Used</h2>
 - (HTML, CSS, javascript) for web page <br>
 - PHP and MYSQL database <br>
